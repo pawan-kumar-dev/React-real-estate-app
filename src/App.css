@@ -1,0 +1,19 @@
+.App {
+     text-align: center;
+}
+body {
+     background-image: linear-gradient(
+          to right,
+          rgb(229, 255, 0),
+          rgb(0, 195, 255)
+     );
+}
+.contentarea {
+     display: flex;
+}
+@media (max-width: 650px) {
+     .contentarea {
+          display: flex;
+          flex-direction: column;
+     }
+}
